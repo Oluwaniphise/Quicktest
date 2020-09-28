@@ -48,7 +48,7 @@ html,body{
     border-radius: 5px;
     padding:10px;
 }
-.get-started .nav-link, .get-started-footer, .get-started-exam a{
+.get-started .nav-link, .get-started-footer a, .get-started-exam a{
     color:#0336FF !important;
     text-decoration:none;
 }
