@@ -1,9 +1,8 @@
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 html,body{
     /* background:blue; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color:black;
     overflow-x: hidden;
     width:100%;
@@ -12,7 +11,8 @@ html,body{
     
 }
 .quick{
-    background:blue;
+    background: #0336FF;
+
     border-top-left-radius:5px;
     border-bottom-left-radius:5px;
     padding:3px 0.5rem;
@@ -20,12 +20,13 @@ html,body{
 }
 
 .active{
-    color:yellow !important;
+    color: #FFDE03 !important;
+
 }
 
 .test{
-    background:yellow;
-    color:blue;
+    background:#FFDE03 !important;
+    color:#0336FF;
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
     padding:3px 0.5rem;
@@ -37,18 +38,18 @@ html,body{
     color:white;
 }
 .get-started{
-    background:yellow;
+    background:#FFDE03;
     padding:5px;
     border-radius:5px;
 }
 .get-started-exam, .get-started-footer{
-    width:100px;
-    background:yellow;
+    width:120px;
+    background:#FFDE03;
     border-radius: 5px;
     padding:10px;
 }
 .get-started .nav-link, .get-started-footer, .get-started-exam a{
-    color:blue !important;
+    color:#0336FF !important;
     text-decoration:none;
 }
 .white-text{
@@ -65,11 +66,12 @@ html,body{
     margin-top:6em;
 }
 .section-1{
-    background:blue;
+    background: #0336FF;
+
     
 }
 .blue-text{
-    color:blue;
+    color:#0336FF;
 }
 section{
     margin-top:6rem;
@@ -84,11 +86,12 @@ section{
 }
 
 .navbar .nav-item .nav-link:hover{
-    color:yellow;
+    color:#FFDE03;
 }
 .explore{
     padding:3rem 3rem;
-    background:blue;
+    background: #0336FF;
+    
     color:white;
 }
 footer{
@@ -104,6 +107,9 @@ footer{
     }
     .col-md-5{
        margin-bottom:2rem !important;
+    }
+    .col-md-4{
+        text-align: center;
     }
 }
 
