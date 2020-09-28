@@ -1,0 +1,124 @@
+
+
+
+html,body{
+    /* background:blue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    overflow-x: hidden;
+    width:100%;
+    height:100%;
+    /* font-size:1.2rem; */
+    
+}
+.quick{
+    background:blue;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    padding:3px 0.5rem;
+    color:white;
+}
+
+.active{
+    color:yellow !important;
+}
+
+.test{
+    background:yellow;
+    color:blue;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    padding:3px 0.5rem;
+}
+.navbar-toggler{
+    background:white;
+}
+.navbar .nav-item .nav-link{
+    color:white;
+}
+.get-started{
+    background:yellow;
+    padding:5px;
+    border-radius:5px;
+}
+.get-started-exam, .get-started-footer{
+    width:100px;
+    background:yellow;
+    border-radius: 5px;
+    padding:10px;
+}
+.get-started .nav-link, .get-started-footer, .get-started-exam a{
+    color:blue !important;
+    text-decoration:none;
+}
+.white-text{
+    color:white;
+}
+.take-exam{
+    padding-left:1rem;
+}
+.login{
+    margin-right:2rem;
+    font-size: 1.2rem;
+}
+.nav-first-section{
+    margin-top:6em;
+}
+.section-1{
+    background:blue;
+    
+}
+.blue-text{
+    color:blue;
+}
+section{
+    margin-top:6rem;
+}
+.testimonial-img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+.home-li, .pricing-li, .contact-li{
+    margin-left:5rem;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color:yellow;
+}
+.explore{
+    padding:3rem 3rem;
+    background:blue;
+    color:white;
+}
+footer{
+    background:#f4f4f4;
+    padding:5rem 5rem;
+}
+
+@media screen and (max-width:767px){
+    .card{
+        width:100% !important;
+        height:100% !important;
+       
+    }
+    .col-md-5{
+       margin-bottom:2rem !important;
+    }
+}
+
+@media screen and (max-width:991px){
+    .get-started{
+    width:100px;
+    text-align:center;
+    }
+    .home-li, .pricing-li, .contact-li{
+        margin-left:0rem;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .get-started-exam{
+        display:none;
+    }
+}

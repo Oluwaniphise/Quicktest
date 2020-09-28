@@ -1,0 +1,94 @@
+body{
+    background:blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.quick{
+    background:blue;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    padding:3px 3px;
+    color:white;
+}
+.test{
+    background:yellow;
+    color:blue;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    padding:3px 3px;
+}
+.navbar-toggler{
+    background:white;
+}
+.navbar .nav-item .nav-link{
+    color:white;
+}
+.get-started{
+    background:yellow;
+    padding:5px;
+    
+    border-radius:5px;
+}
+.get-started .nav-link{
+    color:blue !important;
+}
+.home-li, .pricing-li, .contact-li{
+    margin-left:5rem;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color:yellow;
+}
+.pricing{
+    margin-top:8rem;
+    color:white;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.btn-yellow{
+    background:yellow;
+}
+.paid{
+    color:white;
+}
+.start, .free{
+    color:blue;
+}
+
+.btn-premium{
+    background:white;
+}
+.card{
+    width:300px !important;
+    height:300px !important;
+    border-radius: 0% !important;
+}
+.premium{
+    background-color:goldenrod;
+}
+
+.plan, .price, .price-text {
+    margin-top:2rem;
+}
+
+@media screen and (max-width:767px){
+    .card{
+        width:100% !important;
+        height:100% !important;
+       
+    }
+    .col-md-5{
+       margin-bottom:2rem !important;
+    }
+}
+
+@media screen and (max-width:991px){
+    .get-started{
+    width:100px;
+    text-align:center;
+    }
+    .home-li, .pricing-li, .contact-li{
+        margin-left:0rem;
+    }
+    
+}
