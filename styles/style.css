@@ -15,12 +15,7 @@ html,body{
 .navbar .nav-item .nav-link{
     color:white;
 }
-.get-started{
-    background:yellow;
-    padding:5px;
-    
-    border-radius:5px;
-}
+
 .get-started .nav-link{
     color:blue !important;
 }
@@ -222,7 +217,7 @@ footer{
 
 @media screen and (max-width:991px){
     .get-started{
-    width:100px;
+    width:60%;
     text-align:center;
     }
     .home-li, .pricing-li, .contact-li{
