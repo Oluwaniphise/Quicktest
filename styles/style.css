@@ -23,18 +23,14 @@ html,body{
     margin-left:5rem;
 }
 
-.navbar .nav-item .nav-link:hover{
-    color:yellow;
-}
+
 .pricing{
     margin-top:8rem;
     color:white;
     padding-left:1rem;
     padding-right:1rem;
 }
-.btn-yellow{
-    background:yellow;
-}
+
 .paid{
     color:white;
 }
